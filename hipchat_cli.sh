@@ -7,8 +7,8 @@
 # A script for sending a system message to a room.
 #
 # Usage:
-#   cat message.txt | ./hipchat_room_message -t <token> -r 1234 -f "System"
-#   echo -e "New\nline" | ./hipchat_room_message -t <token> -r 1234 -f "System"
+#   cat message.txt | ./hipchat_cli -t <token> -r 1234 -f "System"
+#   echo -e "New\nline" | ./hipchat_cli -t <token> -r 1234 -f "System"
 #
 ###############################################################################
 
